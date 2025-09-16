@@ -9,6 +9,8 @@ html,body{
     font-family: 'Playfair Display', serif;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
     box-sizing: border-box;
+
+    scroll-behavior: smooth;
 }
 h1{
     color: white;
@@ -17,7 +19,7 @@ h1{
     font-family: 'Montserrat', sans-serif;
 }
 h3{
-    color: white;
+    color: black;
     font-size: 35px;
 }
 h6{
@@ -95,7 +97,7 @@ h7{
                 flex-direction: row;
             }
                 .nav-buttons{
-                    width: 175px;
+                    width: 150px;
                     height: 75px;
                     display: flex;
                     align-items: center;
@@ -118,6 +120,7 @@ h7{
         background-position: center;
         background-size: cover;
         background-color: black;
+        background-repeat: no-repeat;
     }
         .main-container-sides{
             width: 40%;
@@ -146,75 +149,6 @@ h7{
                     background-size: cover;
                     background-position: center;
                 }
-
-
-
-/* MAIN INFO SECTION */
-#main-info-section{
-    width: 100%;
-    height: 800px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-    #main-info-container{
-        width: 80%;
-        height: 80%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        flex-direction: row;
-
-        gap: 1%;
-    }
-        .main-info-sides{
-            width: 49%;
-            height: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-            #main-info-right{
-                display: flex;
-                align-items: center;
-                justify-content: end;
-            }
-                #academy-bio-box{
-                    width: 80%;
-                    height: 80%;
-                    display: flex;
-                    align-items: center;
-                    justify-content: start;
-                }
-                    #academy-bio{
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        text-align: center;
-                    }
-            #main-info-left{
-                display: flex;
-                align-items: center;
-                justify-content: start;
-            }
-                #image-box-one{
-                    width: 80%;
-                    height: 80%;
-                    display: flex;
-                    align-items: center;
-                    justify-content: start;
-
-                    background-image: url(img-one.jpg);
-                    background-position: center;
-                    background-size: cover;
-
-                    box-shadow: 10px 10px 28px 6px rgba(0,0,0,0.75);
-                }
-                    #img-one{
-                        width: auto;
-                        height: 100%;
-                    }
 
 /* COURSE SECTION */
 #course-section{
@@ -280,6 +214,74 @@ h7{
                     align-items: center;
                     justify-content: center;
                 }
+
+/* MAIN INFO SECTION */
+#main-info-section{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    #main-info-container{
+        width: 80%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        flex-direction: row;
+
+        gap: 1%;
+    }
+        .main-info-sides{
+            width: 49%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+            #main-info-right{
+                display: flex;
+                align-items: center;
+                justify-content: end;
+            }
+                #academy-bio-box{
+                    width: 80%;
+                    height: 80%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: start;
+                }
+                    #academy-bio{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        text-align: center;
+                    }
+            #main-info-left{
+                display: flex;
+                align-items: center;
+                justify-content: start;
+            }
+                #image-box-one{
+                    width: 80%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    background-image: url(jays-photos/image-one.jpg);
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+
+                    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.25);
+                }
+                    #img-one{
+                        width: 80%;
+                        height: 100%;
+                    }
 /*BOTTOM SECTION */
 #bottom-section{
     width: 100%;
