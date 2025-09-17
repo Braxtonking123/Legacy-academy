@@ -652,3 +652,177 @@ h9{
             width: 100%;
             height: 100%;
         }
+
+/* REQUIREMENTS SECTION */
+#requirements-section{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    #requirements-container{
+        width: 80%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background-color: white;
+        box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.25);
+
+        flex-direction: column;
+    }
+        #requirements-section-top{
+            width: 90%;
+            height: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+        }
+        #requirements-section-bottom{
+            width: 100%;
+            height: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            flex-direction: row;
+
+            gap: 2%;
+        }
+            .requirement-detail-containers{
+                width: 33.3%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                flex-direction: column;
+            }
+                .requirement-header-boxes{
+                    width: 90%;
+                    height: 15%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: start;
+                }
+                    .requirement-headers{
+                        font-size: 25px;
+                        text-decoration: underline;
+                    }
+                .requirement-content-boxes{
+                    width: 90%;
+                    height: 85%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: start;
+
+                    flex-direction: column;
+                }
+                    .enrollment-boxes{
+                        width: 100%;
+                        height: 33.3%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: start;
+
+                    }
+                        .enrollment-headers{
+                            font-size: 18px;
+                            color: black;
+                        }
+                    #financial-top-half{
+                        width: 100%;
+                        height: 40%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        flex-direction: column;
+                    }
+                        .cost-boxes-top{
+                            width: 100%;
+                            height: 25%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: start;
+                        }
+                            .top-costs{
+                                font-size: 18px;
+                                color: black;
+                            }
+                    #financial-bottom-half{
+                        width: 100%;
+                        height: 60%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        flex-direction: column;
+
+                    }
+                        #cost-box-one{
+                            width: 100%;
+                            height: 20%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: start;
+                        }
+                        #cost-box-two{
+                            width: 100%;
+                            height: 40%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: start;
+                        }
+                        #cost-box-three{
+                            width: 100%;
+                            height: 40%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: start;
+                        }
+                            .total-cost-headers{
+                                font-size: 18px;
+                                color: black;
+                                text-align: start;
+                            }
+                    .program-detail-boxes{
+                        width: 100%;
+                        height: 25%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        flex-direction: column;
+                    }
+                        .program-header-box{
+                            width: 100%;
+                            height: 30%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: start;
+                        }
+                            .program-headers{
+                                font-size: 22px;
+                                font-weight: bold;
+                            }
+                            .program-paragraphs{
+                                font-size: 18px;
+                                text-align: start;
+                            }
+                        .program-detail-box{
+                            width: 100%;
+                            height: 70%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: start;
+                        }
+        #requirement-schedule-container{
+            width: 90%;
+            height: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
