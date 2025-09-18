@@ -274,6 +274,8 @@ h9{
                         align-items: center;
                         justify-content: center;
                         text-align: center;
+
+                        font-weight: none;
                     }
             #main-info-left{
                 display: flex;
@@ -817,7 +819,6 @@ h9{
                         }
                             .program-headers{
                                 font-size: 22px;
-                                font-weight: bold;
                             }
                             .program-paragraphs{
                                 font-size: 18px;
