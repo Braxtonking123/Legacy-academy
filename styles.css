@@ -837,3 +837,236 @@ h9{
             align-items: center;
             justify-content: center;
         }
+
+
+
+
+
+/* MOBILE UPDATES BELOW THIS POINT */
+@media (max-width: 768px) {
+#main-section{
+    border: 1px solid black;
+    width: 100%;
+    height: auto;
+}
+  #hero-bar{
+    flex-direction: column;
+  }
+    .nav-bar-sides{
+        width: 100%;
+        height: 50%;
+    }
+        /* left side */
+        .nav-buffer-box{
+            width: 100%;
+            height: 20%;
+            display: none;
+        }
+        #logo-box{
+            width: 100%;
+            height: 15%;
+
+            background-image: url(Logo2.PNG);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: none;
+        }
+            #nav-bar-logo{
+                display: none;
+            }
+        #nav-title-box{
+            width: 100%;
+            height: 65%;
+        }
+            #nav-header{
+                font-size: 25px;
+            }
+        /* RIGHT SIDE */
+        #nav-button-bar{
+            width: 100%;
+            height: 60%;
+            gap: 1%;
+        }
+            .nav-buttons{
+                width: 75px;
+                height: 50px;
+
+                font-size: 15px;
+            }
+    #main-section-container{
+        display: none;
+    }
+
+
+/* course section */
+#course-section{
+    width: 100%;
+    margin-bottom: 50px;
+}
+    #course-container{
+        width: 100%;
+        height: 100%;
+    }
+            .course-header-boxes{
+                width: 100%;
+            }
+                #course-icons{
+                    font-size: 50px;
+                }
+                .course-headers{
+                    font-size: 18px;
+                }
+                .course-description-paragraphs{
+                    font-size: 12px;
+                }
+
+
+
+/* main info section */
+            #main-info-container{
+                width: 100%;
+
+                flex-direction: column;
+            }
+                .main-info-sides{
+                    width: 100%;
+                    height: 50%;
+                }
+                    #main-info-left, #main-info-right{
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    #academy-bio{
+                        font-size: 20px;
+                    }
+
+
+/* school description section */
+#school-desctiption-container{
+    width: 100%;
+}
+    .school-description-sides{
+        flex-direction: column;
+    }
+        .description-content-boxes{
+            width: 100%;
+            height: 40%;
+        }
+        .description-img-boxes{
+            width: 100%;
+            height: 60%;
+        }
+        .description-header-box{
+            width: 100%;
+        }
+        .description-content-box{
+            width: 100%;
+        }
+            .description-headers-fix{
+                font-size: 16px;
+            }
+            .description-paragraph-fix{
+                font-size: 12px;
+            }
+
+    /* touring section */
+    #touring-container{
+        width: 100%;
+    }
+        #touring-container-bottom{
+            flex-direction: column;
+        }
+            .touring-contact-boxes{
+                width: 100%;
+                height: 25%;
+            }
+                    #touring-icons{
+                        font-size: 40px;
+                    }
+                .touring-header-boxes{
+                    justify-content: center;
+                }
+                    .touring-headers{
+                        font-size: 18px;
+                    }
+                .touring-content-boxes{
+                    justify-content: center;
+                }
+                    .touring-paragraphs{
+                        font-size: 12px;
+                    }
+                    .touring-links{
+                        font-size: 15px;
+                    }
+
+
+    /* bottom section */
+    #bottom-main-container{
+        flex-direction: column;
+    }
+        .bottom-container-sides{
+            width: 100%;
+            height: 50%;
+        }
+            #bottom-header-main{
+                font-size: 25px;
+            }
+            #bottom-bio-main{
+                font-size: 15px;
+            }
+
+        #bottom-agent-header, #bottom-contact-info{
+            font-size: 12px;
+        }
+
+        .bottom-examples{
+            font-size: 12px;
+        }
+
+        #write-me-container{
+            display: none;
+        }
+
+
+
+
+        /* requirements section */
+        #requirements-section{
+            height: auto;
+        }
+        #requirements-container{
+            width: 100%;
+        }
+            #requirements-section-top{
+                width: 100%;
+            }
+            #requirements-section-bottom{
+                flex-direction: column;
+            }
+                .requirement-detail-containers{
+                    width: 100%;
+                    height: 33.3%
+                }
+                    #requirements-header-main{
+                        font-size: 22px;
+                    }
+                    .requirement-headers{
+                        font-size: 20px;
+                    }
+                    .enrollment-headers{
+                        font-size: 12px;
+                    }
+                    .top-costs{
+                        font-size: 12px;
+                    }
+                    .total-cost-headers{
+                        font-size: 12px;
+                    }
+                    .program-headers{
+                        font-size: 12px;
+                    }
+                    .program-paragraphs{
+                        font-size: 12px;
+                    }
+}
