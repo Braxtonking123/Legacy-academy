@@ -482,9 +482,20 @@ h9{
                     height: 20%;
                     display: flex;
                     align-items: center;
-                    justify-content: start;
+                    justify-content: center;
 
                 }
+                    .touring-links{
+                        font-size: 20px;
+                        font-weight: bolder;
+                        width: 100px;
+                        height: 50px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+
+                    }
 /*BOTTOM SECTION */
 #bottom-section{
     width: 100%;
