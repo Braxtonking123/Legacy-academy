@@ -15,8 +15,6 @@ html,body{
 h1{
     color: white;
     font-size: 35px;
-
-    font-family: 'Montserrat', sans-serif;
 }
 h2{
     /* FOR ALL DESCRIPTION HEADERS */
@@ -1055,12 +1053,15 @@ h9{
                 }
                     #requirements-header-main{
                         font-size: 22px;
+                        color: black;
                     }
                     .requirement-headers{
                         font-size: 20px;
+                        color: black;
                     }
                     .enrollment-headers{
                         font-size: 14px;
+                        color: black;
                     }
                     .top-costs{
                         font-size: 14px;
