@@ -819,6 +819,7 @@ h9{
                         }
                             .program-headers{
                                 font-size: 22px;
+                                font-weight: none;
                             }
                             .program-paragraphs{
                                 font-size: 18px;
@@ -1069,6 +1070,7 @@ h9{
                     }
                     .program-headers{
                         font-size: 14px;
+                        font-weight: none;
                     }
                     .program-paragraphs{
                         font-size: 14px;
