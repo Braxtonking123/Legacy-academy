@@ -918,7 +918,7 @@ h9{
                     font-size: 18px;
                 }
                 .course-description-paragraphs{
-                    font-size: 12px;
+                    font-size: 14px;
                 }
 
 
@@ -970,7 +970,7 @@ h9{
                 font-size: 16px;
             }
             .description-paragraph-fix{
-                font-size: 12px;
+                font-size: 14px;
             }
 
     /* touring section */
@@ -997,7 +997,7 @@ h9{
                     justify-content: center;
                 }
                     .touring-paragraphs{
-                        font-size: 12px;
+                        font-size: 14px;
                     }
                     .touring-links{
                         font-size: 15px;
@@ -1020,11 +1020,11 @@ h9{
             }
 
         #bottom-agent-header, #bottom-contact-info{
-            font-size: 12px;
+            font-size: 14px;
         }
 
         .bottom-examples{
-            font-size: 12px;
+            font-size: 14px;
         }
 
         #write-me-container{
@@ -1058,18 +1058,18 @@ h9{
                         font-size: 20px;
                     }
                     .enrollment-headers{
-                        font-size: 12px;
+                        font-size: 14px;
                     }
                     .top-costs{
-                        font-size: 12px;
+                        font-size: 14px;
                     }
                     .total-cost-headers{
-                        font-size: 12px;
+                        font-size: 14px;
                     }
                     .program-headers{
-                        font-size: 12px;
+                        font-size: 14px;
                     }
                     .program-paragraphs{
-                        font-size: 12px;
+                        font-size: 14px;
                     }
 }
