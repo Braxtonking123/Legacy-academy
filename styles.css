@@ -877,8 +877,6 @@ h9{
     align-items: center;
     justify-content: center;
 
-
-    margin-top: 50px;
     margin-bottom: 50px;
 }
     #form-container{
@@ -891,6 +889,7 @@ h9{
         flex-direction: column;
 
         box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
     }
         #form-header-container{
             width: 100%;
@@ -902,6 +901,7 @@ h9{
             #form-header{
                 font-size: 30px;
                 text-align: center;
+                color: black;
             }
         #contact-form{
             width: 30%;

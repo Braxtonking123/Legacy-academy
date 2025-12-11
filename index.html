@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Legacy Barber Academy</title>
+    <title>Legacy Barber Academy | Barber School in Tri-Cities, WA</title>
+
+    <meta name="description" content="Legacy Barber Academy in Tri-Cities, WA offers hands-on barber training, Washington State licensing preparation, and professional instructor programs. Start your barber career today.">
+
 
 
     <link rel="stylesheet" href="styles.css">
@@ -13,70 +16,53 @@
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-straight/css/uicons-regular-straight.css'>
 
     <!-- ✅ SEO JSON-LD Structured Data -->
-    <script type="application/ld+json">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "Legacy Barber Academy",
+  "url": "https://legacybarberacademytricities.com",
+  "logo": "https://legacybarberacademytricities.com/Logo2.PNG",
+  "description": "Legacy Barber Academy in Tri-Cities, WA provides hands-on barber training, Washington State licensing preparation, and instructor programs.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "2523 W Kennewick Ave",
+    "addressLocality": "Kennewick",
+    "addressRegion": "WA",
+    "postalCode": "99336",
+    "addressCountry": "US"
+  },
+  "contactPoint": [
     {
-      "@context": "https://schema.org",
-      "@type": "EducationalOrganization",
-      "name": "Legacy Barber Academy",
-      "url": "https://www.legacybarberacademy.com",
-      "logo": "https://www.legacybarberacademy.com/Logo2.PNG",
-      "image": "https://www.legacybarberacademy.com/images/academy-photo.jpg",
-      "description": "Legacy Barber Academy provides professional training in barbering, shaving, trimming, fading, styling, and instructor programs. Our mission is to build skilled, confident, and career-ready barbers.",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "123 Main Street",
-        "addressLocality": "Your City",
-        "addressRegion": "WA",
-        "postalCode": "12345",
-        "addressCountry": "US"
-      },
-      "contactPoint": [
-        {
-          "@type": "ContactPoint",
-          "telephone": "+1-509-405-1787",
-          "contactType": "customer service",
-          "areaServed": "US",
-          "availableLanguage": ["English"]
-        },
-        {
-          "@type": "ContactPoint",
-          "telephone": "+1-509-221-8695",
-          "contactType": "director",
-          "areaServed": "US",
-          "availableLanguage": ["English"]
-        },
-        {
-          "@type": "ContactPoint",
-          "telephone": "+1-509-212-8695",
-          "contactType": "administrator",
-          "areaServed": "US",
-          "availableLanguage": ["English"]
-        }
-      ],
-      "sameAs": [
-        "https://www.facebook.com/profile.php?id=61578996579153",
-        "https://www.instagram.com/legacy_b_academy/"
-      ],
-      "offers": [
-        {
-          "@type": "Offer",
-          "name": "Barbering Course",
-          "url": "https://www.legacybarberacademy.com/courses#barbering",
-          "priceCurrency": "USD",
-          "price": "2500",
-          "availability": "https://schema.org/InStock"
-        },
-        {
-          "@type": "Offer",
-          "name": "Instructor Program",
-          "url": "https://www.legacybarberacademy.com/courses#instructor",
-          "priceCurrency": "USD",
-          "price": "3000",
-          "availability": "https://schema.org/InStock"
-        }
-      ]
+      "@type": "ContactPoint",
+      "telephone": "+1-509-405-1787",
+      "contactType": "customer service",
+      "areaServed": "US",
+      "availableLanguage": ["English"]
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+1-509-212-8695",
+      "contactType": "director",
+      "areaServed": "US",
+      "availableLanguage": ["English"]
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+1-509-212-8695",
+      "contactType": "administrator",
+      "areaServed": "US",
+      "availableLanguage": ["English"]
     }
-    </script>
+  ],
+  "sameAs": [
+    "https://www.facebook.com/profile.php?id=61578996579153",
+    "https://www.instagram.com/legacy_b_academy/"
+  ]
+}
+</script>
+
+
 </head>
 <body>
     <!--MAIN SECTION-->
@@ -181,6 +167,8 @@
             </div>
         </div>
      </div>
+
+
      <!-- SCHOOL INFO SECTION -->
      <div id="main-info-section">
         <div id="main-info-container">
@@ -198,6 +186,8 @@
             </div>
         </div>
      </div>
+
+
      <!-- SCHOOL DESCRIPTION SECTION-->
      <div id="school-description-section">
         <div id="school-description-container">
@@ -225,6 +215,8 @@
             </div>
         </div>
      </div>
+
+
      <!-- TOURING SECTION-->
       <div id="touring-section">
         <div id="touring-container">
@@ -296,6 +288,34 @@
             </div>
         </div>
       </div>
+
+    <!-- FORM SECTION -->
+    <div id="form-section">
+        <div id="form-container">
+            <div id="form-header-container">
+                <h1 id="form-header">ORIENTATION APPOINTMENT</h1>
+            </div>
+            <form id="contact-form" action="https://formspree.io/f/movgkorl" method="post">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" required>
+
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <input type="text" name="_gotcha" style="display:none">
+
+                <button id="form-button" type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+
+
     <!-- BOTTOM SECTION -->
     <div id="bottom-section">
         <div id="bottom-main-container">
